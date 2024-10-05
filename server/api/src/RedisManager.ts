@@ -1,5 +1,5 @@
 import { RedisClientType, createClient } from "redis";
-import { MessageFromOrderbook } from "./utils/types";
+import { MessageFromOrderbook } from "./utils/types/responseTypes";
 import { MessageToEngine } from "./utils/types/to";
 
 export class RedisManager {
